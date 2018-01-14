@@ -254,7 +254,7 @@ $(function () {
 
     $.ajax({
       type:"post",
-      url:"/product/addProduct",
+      url:"  n",
       data:param,
       success:function (info){
         if(info.success){
