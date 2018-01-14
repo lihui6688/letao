@@ -25,7 +25,7 @@ $(function(){
             type:'get',
             url:'/employee/checkRootLogin',
             success:function(info){
-                if(data.error === 400){
+                if(info.error === 400){
                     //说明用户没有登录，跳转到登录页面
                     location.href = "login.html";
                 }

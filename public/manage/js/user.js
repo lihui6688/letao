@@ -25,7 +25,7 @@ $(function () {
         var html = template("tpl", info);
         $("tbody").html(html);
 
-        //渲染分页
+        //渲染分页  是在请求数据成功之后渲染分页
         $("#paginator").bootstrapPaginator({
           bootstrapMajorVersion:3,
           currentPage: currentPage,

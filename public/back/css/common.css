@@ -125,5 +125,36 @@ html,body{
 .pic_right{
     width: 45%;
     height: 400px;
-    background-color:pink;
+}
+
+
+/*表格垂直跟水平对齐*/
+.table.table-bordered td{
+    text-align: center;
+    vertical-align: middle;
+}
+
+/*一级分类样式*/
+.btn.bt_20{
+    margin-bottom: 20px;
+}
+
+/*二级分类样式*/
+.chenqian{
+    width: 82px;
+    height: 34px;
+    position: relative;
+}
+.chenqian:hover button {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+}
+.chenqian input{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
 }
