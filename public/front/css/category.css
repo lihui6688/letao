@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+.main_left{
+    width: 90px;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+.main_left ul{
+    background-color:pink;
+    width: 90px;
+}
+.main_left ul li{
+    width: 90px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-bottom: 1px solid red;
+    border-right: 1px solid red;
+}
+.main_left ul li.now{
+    background-color:white;
+    border-right: none;
+}
+
+.main_right{
+    height: 100%;
+    padding-left: 90px;
+    overflow: hidden;
+    position: relative;
+}
+.main_right li{
+    float: left;
+    width: 33.33%;
+}
+.main_right li img{
+    height: 62px;
+    width: 62px;
+    margin: 0 auto;
+}
+.main_right li p{
+    text-align: center;
+}
+.main_right .shopping{
+    margin-top: 10px;
+    margin-left: 10px;
+}
